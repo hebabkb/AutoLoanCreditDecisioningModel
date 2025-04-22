@@ -8,6 +8,6 @@ Information Provided:
 We are given Auto Loan account data containing one binary response called 'aprv_flag' in the datasets and a set of potential predictor variables from those Auto Loan accounts. Each record represents a unique account. There are two datasets: 1. Training data with around 21,000 records 2. Testing data with around 5,400 accounts
 Objectives:
 - Conducting an exploratory analysis to provide data summaries and necessary pre-processing for modeling.
-- Developing and assessing machine learning models such as Logistic Regression, Decision Trees, Random Forest, Gradient Boosting (XGBoost, LightGBM).
+- Developing and assessing machine learning models such as Logistic Regression, Decision Trees, Random Forest, Gradient Boosting (XGBoost), Stacking Models.
 - Comparing the results from these models to recommend the most effective approach for approving loan applications.
 - Addressing critical business questions related to model transparency, gender bias, and potential racial discrimination.
