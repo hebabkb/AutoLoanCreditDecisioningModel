@@ -56,11 +56,11 @@ Stacking Model (XGBoost and RF as base learners with LR as meta learner), achiev
 
 PS: I applied SMOTE (oversampling technique) for class imbalance but it led to overfitting. 
 
-### Interpretability of the Model (Using SHAP):
+## Interpretability of the Model (Using SHAP):
 
 This SHAP plot ranks the most influential features in our model for predicting bad loans. For instance, low FICO scores and high LTV ratios significantly increase the predicted risk of default. These insights align with lending domain knowledge and provide transparency into how the model makes decisions. 
 
-### Fairness Analysis by Gender and Race:
+## Fairness Analysis by Gender and Race:
 
 
 
