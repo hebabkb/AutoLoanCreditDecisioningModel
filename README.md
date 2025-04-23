@@ -28,12 +28,13 @@ We are given Auto Loan account data containing one binary response called 'bad_f
 ## Dataset Description: 
 
 - Number of Features: 42
-- Target Variables: bad\_flag
+- Target Variables: bad\_flag (highly imbalanced):
+
 - Pre-Processing: Removing columns with more than 80% missing values, capping outliers, scaling features, encoding categorical features, removing correlated features with high correlation threshold.
 
 ## Model Overview:
 
-Models Explored: 
+### Models Explored: 
 
 Logistic Regression: Base model
 Random Forest
@@ -42,9 +43,30 @@ XGBoost
 Stacking Ensemble (Random Forest and XGBoost as base learners and Logistic Regression as meta learner) (final choice)
 
 
-Performance Metrics:
+### Performance Metrics:
 
-      Models were compared based on recall (class 1, bad loans), PR AUC and fairness metrics.
-![image](https://github.com/user-attachments/assets/6f11880a-da26-4fe8-8e00-e54d3b0c0731)
+Models were compared based on recall (class 1, bad loans), PR AUC and fairness metrics.
+
+## Model Evaluation (Without applying sampling techniques):
+
+### Chosen Model: 
+Stacking Model (XGBoost and RF as base learners with LR as meta learner), achieved a fair performance.
+
+### Classification Results: 
+
+PS: I applied SMOTE (oversampling technique) for class imbalance but it led to overfitting. 
+
+### Interpretability of the Model (Using SHAP):
+
+This SHAP plot ranks the most influential features in our model for predicting bad loans. For instance, low FICO scores and high LTV ratios significantly increase the predicted risk of default. These insights align with lending domain knowledge and provide transparency into how the model makes decisions. 
+
+### Fairness Analysis by Gender and Race:
+
+
+
+
+
+
+
 
 
