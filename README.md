@@ -113,6 +113,14 @@ DI = 0.8889 — within the legal “safe harbor” range (0.8 – 1.25).
 
 Conclusion: The model shows improved racial fairness, though some differences remain, especially in approval rates between Black and Asian applicants.
 
+## Files 
+
+This repository include the following files:
+
+### Notebooks:
+- [View the notebook](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/EDA_data_exploration.ipynb)
+
+
 
 
 
