@@ -124,8 +124,6 @@ This repository include the following files:
 - [XGBoost.ipynb](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Models/XGBoost.ipynb): I implemented and evaluated an XGBoost model to predict auto loan default (bad_flag).
 - [Stacking Model.ipynb](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Chosen%20Model%20%2BFairness%20and%20interpretability/Stacking%20Model.ipynb): I implemented and evaluated a Stacking model (RF and XGBoost as base learners, with Logistic regression as meta learner) to to predict auto loan default (bad_flag).
 
-### PDFs:
--
 
 ### Python Scripts:
 -[data_loading.py
@@ -134,8 +132,15 @@ This repository include the following files:
 -[preprocessing.py
 ](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/preprocessing.py):includes functions that will help with preprocessing data.
 
-- [model_evaluation.py
+-[model_evaluation.py
 ](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/model_evaluation.py): includes functions that will help with model evaluation.
+
+### CSV files:
+
+- [Training Dataset A_R-384891_Candidate Attach #1_PresSE_SRF #1142.csv](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Data/Training%20Dataset%20A_R-384891_Candidate%20Attach%20%231_PresSE_SRF%20%231142.csv): the Training Dataset 
+
+- [Evaluation Dataset B_R-384891_Candidate Attach #2_PresSE_SRF #1142.csv](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Data/Evaluation%20Dataset%20B_R-384891_Candidate%20Attach%20%232_PresSE_SRF%20%231142.csv): the Evaluation Dataset 
+
 
 
 
