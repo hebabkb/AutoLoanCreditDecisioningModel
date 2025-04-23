@@ -118,8 +118,10 @@ Conclusion: The model shows improved racial fairness, though some differences re
 This repository include the following files:
 
 ### Notebooks:
-- [View the notebook](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/EDA_data_exploration.ipynb)
-
+- [EDA_data_exploration.ipynb](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/EDA_data_exploration.ipynb) : This includes the description of the data and some exploratory data analysis.
+- [LogisticRegression.ipynb](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Models/LogisticRegression.ipynb): I implemented and evaluated a Logistic Regression model to predict auto loan default (bad_flag).
+- [RandomForest.ipynb](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Models/RandomForest.ipynb): I implemented and evaluated a Random Forest model to predict auto loan default (bad_flag).
+- [XGBoost.ipynb](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Models/XGBoost.ipynb): I implemented and evaluated an XGBoost model to predict auto loan default (bad_flag).
 
 
 
