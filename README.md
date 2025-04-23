@@ -57,7 +57,7 @@ Models were compared based on recall (class 1, bad loans), PR AUC and fairness m
 ### Chosen Model: 
 Stacking Model (XGBoost and RF as base learners with LR as meta learner), achieved a fair performance.
 
-![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/Screen Shot 2025-04-23 at 4.58.17 PM)
+
 
 ![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/download-5.png)
 
@@ -65,11 +65,17 @@ Stacking Model (XGBoost and RF as base learners with LR as meta learner), achiev
 
 ### Classification Results: 
 
+![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/Screen%20Shot%202025-04-23%20at%204.58.17%20PM.png)
+
 PS: I applied SMOTE (oversampling technique) for class imbalance but it led to overfitting. 
+
+![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/download-4.png)
 
 ## Interpretability of the Model (Using SHAP):
 
 This SHAP plot ranks the most influential features in our model for predicting bad loans. For instance, low FICO scores and high LTV ratios significantly increase the predicted risk of default. These insights align with lending domain knowledge and provide transparency into how the model makes decisions. 
+
+![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/download-2.png)
 
 ## Fairness Analysis by Gender and Race:
 
@@ -85,11 +91,15 @@ We evaluated the model’s fairness using group-based metrics across Gender and 
 
 - DI (Disparate Impact) — ratio of approval rates (ideal ≈ 1)
 
+![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/output(1).png)
+
 EOD = 0.0266 — very small difference in TPR between Female and Male.
 
 DI = 0.9967 — approval rates are almost equal (ideal = 1).
 
 Conclusion: The model treats Female and Male applicants equitably with minimal disparity.
+
+![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/output.png)
 
 EOD = 0.0776 — acceptable range; gap in TPRs has been reduced after threshold tuning.
 
