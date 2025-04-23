@@ -62,6 +62,30 @@ This SHAP plot ranks the most influential features in our model for predicting b
 
 ## Fairness Analysis by Gender and Race:
 
+We evaluated the model’s fairness using group-based metrics across Gender and Race. We focused on:
+
+- TPR (True Positive Rate) — % of bad loans correctly flagged
+
+- FPR (False Positive Rate) — % of good loans incorrectly flagged
+
+- Approval Rate — overall likelihood of a loan being approved
+
+- EOD (Equal Opportunity Difference) — gap in TPRs across groups
+
+- DI (Disparate Impact) — ratio of approval rates (ideal ≈ 1)
+
+EOD = 0.0266 — very small difference in TPR between Female and Male.
+
+DI = 0.9967 — approval rates are almost equal (ideal = 1).
+
+Conclusion: The model treats Female and Male applicants equitably with minimal disparity.
+
+EOD = 0.0776 — acceptable range; gap in TPRs has been reduced after threshold tuning.
+
+DI = 0.8889 — within the legal “safe harbor” range (0.8 – 1.25).
+
+Conclusion: The model shows improved racial fairness, though some differences remain, especially in approval rates between Black and Asian applicants.
+
 
 
 
