@@ -71,6 +71,8 @@ Due to the highly imbalanced nature of our dataset where bad loans account for l
 
 Instead, we focused on the PR AUC and the recall for the bad loan class. In credit risk modeling, maximizing recall for bad loans is crucial to avoid approving high-risk applicants.
 You can tolerate rejecting a few good loans, but you can’t afford to approve bad ones.
+
+
 PS: I applied SMOTE (oversampling technique) for class imbalance but it led to overfitting. 
 
 ![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/download-4.png)
