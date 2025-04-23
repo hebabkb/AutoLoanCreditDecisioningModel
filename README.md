@@ -67,6 +67,10 @@ Stacking Model (XGBoost and RF as base learners with LR as meta learner), achiev
 
 ![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/Screen%20Shot%202025-04-23%20at%204.58.17%20PM.png)
 
+Due to the highly imbalanced nature of our dataset where bad loans account for less than 5\% we prioritized precision-recall (PR) metrics over traditional accuracy and ROC AUC. While the ROC AUC of 0.81 suggests good general discrimination, it is less informative under class imbalance.
+
+Instead, we focused on the PR AUC and the recall for the bad loan class. In credit risk modeling, maximizing recall for bad loans is crucial to avoid approving high-risk applicants.
+You can tolerate rejecting a few good loans, but you can’t afford to approve bad ones.
 PS: I applied SMOTE (oversampling technique) for class imbalance but it led to overfitting. 
 
 ![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/download-4.png)
