@@ -122,6 +122,10 @@ This repository include the following files:
 - [LogisticRegression.ipynb](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Models/LogisticRegression.ipynb): I implemented and evaluated a Logistic Regression model to predict auto loan default (bad_flag).
 - [RandomForest.ipynb](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Models/RandomForest.ipynb): I implemented and evaluated a Random Forest model to predict auto loan default (bad_flag).
 - [XGBoost.ipynb](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Models/XGBoost.ipynb): I implemented and evaluated an XGBoost model to predict auto loan default (bad_flag).
+- [Stacking Model.ipynb](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Chosen%20Model%20%2BFairness%20and%20interpretability/Stacking%20Model.ipynb): I implemented and evaluated a Stacking model (RF and XGBoost as base learners, with Logistic regression as meta learner) to to predict auto loan default (bad_flag).
+
+### PDFs:
+-
 
 
 
