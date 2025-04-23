@@ -115,7 +115,7 @@ Conclusion: The model shows improved racial fairness, though some differences re
 
 ## Files 
 
-This repository include the following files:
+This repository includes the following files:
 
 ### Notebooks:
 - [EDA_data_exploration.ipynb](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/EDA_data_exploration.ipynb) : This includes the description of the data and some exploratory data analysis.
