@@ -91,7 +91,7 @@ We evaluated the model’s fairness using group-based metrics across Gender and 
 
 - DI (Disparate Impact) — ratio of approval rates (ideal ≈ 1)
 
-![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/output(1).png)
+![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/output%20(1).png)
 
 EOD = 0.0266 — very small difference in TPR between Female and Male.
 
