@@ -29,10 +29,11 @@ We are given Auto Loan account data containing one binary response called 'bad_f
 
 - Number of Features: 42
 - Target Variables: bad\_flag (highly imbalanced):
+  https://github.com/hebabkb/AutoLoanCreditDecisioningModel/tree/main/Presentation%20Images
 
-![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation_Images/download-1.png)
+![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/tree/main/Presentation%20Images/download-1.png)
 
-![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation_Images/download.png)
+![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/tree/main/Presentation%20Images/download.png)
 
 - Pre-Processing: Removing columns with more than 80% missing values, capping outliers, scaling features, encoding categorical features, removing correlated features with high correlation threshold.
 
