@@ -2,7 +2,7 @@
 
 [Erdős Institute Data Science Boot Camp](https://github.com/TheErdosInstitute/data-science-spring-2025), Spring 2025.
 
-- View our 5 mins [presentation](https://www.erdosinstitute.org/project-database/spring-2025/data-science-boot-camp/auto-loan-credit-decisioning-model)
+- View my 5 mins [presentation](https://www.erdosinstitute.org/project-database/spring-2025/data-science-boot-camp/auto-loan-credit-decisioning-model)
 
 <h1>Auto Loan Credit Decisioning Model</h1>
 
