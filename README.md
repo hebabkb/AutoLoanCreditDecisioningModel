@@ -127,7 +127,13 @@ This repository include the following files:
 ### PDFs:
 -
 
-
+### Python Scripts:
+-[data_loading.py
+](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/data_loading.py): loading the data
+-[preprocessing.py
+](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/preprocessing.py): preprocessing the data
+- [model_evaluation.py
+]([https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/preprocessing.py](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/model_evaluation.py)): 
 
 
 
