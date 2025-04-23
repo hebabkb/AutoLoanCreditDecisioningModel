@@ -29,7 +29,7 @@ We are given Auto Loan account data containing one binary response called 'bad_f
 
 - Number of Features: 42
 - Target Variables: bad\_flag (highly imbalanced):
-  https://github.com/hebabkb/AutoLoanCreditDecisioningModel/tree/main/Presentation%20Images
+
 
 ![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/download-1.png)
 
@@ -56,6 +56,12 @@ Models were compared based on recall (class 1, bad loans), PR AUC and fairness m
 
 ### Chosen Model: 
 Stacking Model (XGBoost and RF as base learners with LR as meta learner), achieved a fair performance.
+
+![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/Screen Shot 2025-04-23 at 4.58.17 PM)
+
+![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/download-5.png)
+
+![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/download-3.png)
 
 ### Classification Results: 
 
