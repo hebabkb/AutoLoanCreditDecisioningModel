@@ -121,7 +121,7 @@ EOD = 0.0776 — acceptable range; gap in TPRs has been reduced after threshold 
 
 DI = 0.8889 — within the legal “safe harbor” range (0.8 – 1.25).
 
-Conclusion: The model shows improved racial fairness, though some differences remain, especially in approval rates between Black and Asian applicants.
+Conclusion: The model shows racial fairness, though some differences remain.
 
 ## Files 
 
