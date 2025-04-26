@@ -25,7 +25,7 @@ We are given Auto Loan account data containing one binary response called 'bad_f
 
 ## Objectives:
 - Conducting an exploratory analysis to provide data summaries and necessary pre-processing for modeling.
-- Developing and assessing machine learning models such as Logistic Regression, Random Forest, Gradient Boosting (XGBoost), Stacking Models.
+- Developing and assessing machine learning models such as Logistic Regression, Random Forest, Gradient Boosting (XGBoost), and Stacking Model.
 - Comparing the results from these models to recommend the most effective approach for approving loan applications.
 - Addressing critical business questions related to model transparency, gender bias, and potential racial discrimination.
 
