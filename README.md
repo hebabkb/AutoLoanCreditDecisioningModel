@@ -46,9 +46,13 @@ We are given Auto Loan account data containing one binary response called 'bad_f
 ### Models Explored: 
 
 Logistic Regression: Base model
+
 Random Forest
+
 Balanced Random Forest
+
 XGBoost
+
 Stacking Ensemble (Random Forest and XGBoost as base learners and Logistic Regression as meta learner) (final choice)
 
 
