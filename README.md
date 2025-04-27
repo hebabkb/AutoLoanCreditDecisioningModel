@@ -83,7 +83,7 @@ Instead, we focused on the PR AUC and the recall for the bad loan class. In cred
 You can tolerate rejecting a few good loans, but you can’t afford to approve bad ones.
 
 
-PS: I applied SMOTE (oversampling technique) for class imbalance but it led to overfitting. 
+PS: I applied SMOTE (oversampling technique) for class imbalance but it led to overfitting. It performed very well on the train set but perfomed badly on the test set.
 
 ![](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Presentation%20Images/download-4.png)
 
