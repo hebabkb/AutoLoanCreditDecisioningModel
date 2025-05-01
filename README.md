@@ -143,9 +143,9 @@ This repository includes the following files:
 
 ### CSV files:
 
-- [Training Dataset A_R-384891_Candidate Attach #1_PresSE_SRF #1142.csv](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Data/Training%20Dataset%20A_R-384891_Candidate%20Attach%20%231_PresSE_SRF%20%231142.csv): the Training Dataset 
+- [Training_data.csv](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Data/Training_data.csv): the Training Dataset 
 
-- [Evaluation Dataset B_R-384891_Candidate Attach #2_PresSE_SRF #1142.csv](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Data/Evaluation%20Dataset%20B_R-384891_Candidate%20Attach%20%232_PresSE_SRF%20%231142.csv): the Evaluation Dataset 
+- [Testing_data.csv](https://github.com/hebabkb/AutoLoanCreditDecisioningModel/blob/main/Data/Testing_data.csv): the Evaluation Dataset 
 
 
 
