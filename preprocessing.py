@@ -19,10 +19,7 @@ def cap_outliers(df, numerical_features, lower_quantile=0.01, upper_quantile=0.9
     return df
 
 def preprocess_data(df_train, df_eval, correlation_threshold=0.7, missing_threshold=0.8):
-    # Flip bad_flag
-    #df_train['bad_flag'] = df_train['bad_flag'].map({1: 0, 0: 1})
-    #df_eval['bad_flag'] = df_eval['bad_flag'].map({1: 0, 0: 1})
-
+    
     # Drop rows with missing targets
     df_train.dropna(subset=['bad_flag'], inplace=True)
     df_eval.dropna(subset=['bad_flag'], inplace=True)
